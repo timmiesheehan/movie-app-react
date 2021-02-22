@@ -1,8 +1,8 @@
 
-
 const SEARCH_MOVIES = `https://api.themoviedb.org/3/search/movie?api_key=${process.env.REACT_APP_MOVIE_DB_API}&query=`;
 
 const Search = ({ setMovies }) => {
+
     const handleonChange = (e) => {
 
         e.target.value && searchMovies(e.target.value);
